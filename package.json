@@ -1,0 +1,31 @@
+{
+  "name": "fermion-live-streaming",
+  "version": "1.0.0",
+  "description": "Live streaming application with WebRTC and HLS - Fermion Assignment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"pnpm dev:backend\" \"pnpm dev:frontend\"",
+    "dev:backend": "pnpm --filter backend dev",
+    "dev:frontend": "pnpm --filter frontend dev",
+    "build": "pnpm --filter backend build && pnpm --filter frontend build",
+    "start": "pnpm --filter backend start",
+    "lint": "pnpm --filter backend lint && pnpm --filter frontend lint",
+    "type-check": "pnpm --filter backend type-check && pnpm --filter frontend type-check",
+    "install:all": "pnpm install && pnpm --filter backend install && pnpm --filter frontend install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  },
+  "keywords": [
+    "webrtc",
+    "hls",
+    "mediasoup",
+    "nextjs",
+    "typescript",
+    "live-streaming"
+  ],
+  "author": "Akshaya Parida",
+  "license": "MIT"
+} 

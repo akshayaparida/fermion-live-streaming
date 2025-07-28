@@ -1,0 +1,33 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Next.js frontend for live streaming application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "^15.4.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "socket.io-client": "^4.8.1",
+    "mediasoup-client": "^3.12.5",
+    "hls.js": "^1.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.9",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.4.4",
+    "typescript": "^5.8.3",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.5.6",
+    "autoprefixer": "^10.4.21"
+  }
+} 

@@ -1,0 +1,59 @@
+# Dependencies (pnpm + npm fallback)
+node_modules/
+pnpm-debug.log*
+npm-debug.log*
+
+# Production builds
+/backend/dist/
+/frontend/.next/
+/frontend/out/
+
+# Environment variables (SECURITY CRITICAL)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Next.js build output
+.next
+
+# HLS output files (PROJECT SPECIFIC - our live streaming)
+/backend/hls/
+*.m3u8
+*.ts
+
+# AWS credentials (SECURITY CRITICAL - never commit)
+.aws/
+
+# Documentation (study guides, internal notes)
+docs/
+# But allow images for documentation (PNG diagrams)
+!docs/images/
+!docs/images/**
+
+# ===== USEFUL FOR DEVELOPMENT =====
+
+# Logs
+logs/
+*.log
+
+# Temporary folders
+tmp/
+temp/
+
+# IDE files (team consistency)
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursorrules
+.cursor/
+
+
+# OS generated files
+.DS_Store
+Thumbs.db 
