@@ -1,7 +1,6 @@
-import { NextPage } from 'next';
 import Link from 'next/link';
 
-const StreamPage: NextPage = () => {
+export default function StreamPage() {
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-8">
@@ -31,6 +30,4 @@ const StreamPage: NextPage = () => {
       </div>
     </div>
   );
-};
-
-export default StreamPage; 
+}

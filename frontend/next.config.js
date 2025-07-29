@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  // App Router is now stable in Next.js 15
   experimental: {
     esmExternals: true,
   },
