@@ -9,13 +9,15 @@
   },
   "dependencies": {
     "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "mediasoup": "^3.13.15"
+    "express": "^4.21.2",
+    "mediasoup": "^3.18.0",
+    "socket.io": "^4.7.5"
   },
   "devDependencies": {
     "@types/express": "^5.0.3",
     "@types/node": "^20.11.30",
+    "@types/socket.io": "^3.0.2",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.9.2"
   }
 }
